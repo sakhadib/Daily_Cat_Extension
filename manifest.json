@@ -1,0 +1,14 @@
+{
+    "name" : "daily-cat",
+    "version" : "1.0",
+    "description" : "A daily cat picture",
+    "manifest_version" : 2,
+    "browser_action" : {
+        "default_icon" : "logo.png",
+        "default_popup" : "popup.html"
+    },
+
+    "permissions" : [
+        "activeTab"
+    ]
+}
