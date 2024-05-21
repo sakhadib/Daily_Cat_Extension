@@ -27,6 +27,7 @@ const array = [
     "dure ja"
 ];
 
+
 const random = Math.floor(Math.random() * array.length);
 
 const url = "https://cataas.com/cat";
@@ -36,3 +37,4 @@ image.src = url;
 
 const text = document.getElementById("text");
 text.innerHTML = decodeURI(array[random]);
+
